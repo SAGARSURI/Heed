@@ -1,0 +1,37 @@
+<resources>
+  <string name="app_name">Heed</string>
+    <string name="title_activity_maps">Map</string>
+  <string name="location_unknown">Location unknown</string>
+  <string name="location_updates_label">Location Updates</string>
+
+  <string name="permission_rationale">Location permission is needed for core functionality</string>
+  <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+  <string name="settings">Settings</string>
+  <string name="ok">OK</string>
+  <string name="request_location_updates">Request location updates</string>
+  <string name="remove_location_updates">Remove location updates</string>
+
+  <string name="location_updated">Location Updated: %1$s</string>
+    <string name="mark_home">Mark as Home</string>
+    <string name="access_token">pk.eyJ1Ijoic2FnYXJzdXJpNTYiLCJhIjoiY2luNW02dDJkMGQ0cnZxbHVvcGh3YWJqeCJ9.3Fzn0oW8qnpedn586lInsw</string>
+    <string name="going_away_home">Going somewhere!</string>
+    <string name="wear_mask">Wear a facemask</string>
+  <string name="facemask_desc">You should wear facemask when you are around other people.</string>
+  <string name="keep_distance">Keep Distance</string>
+  <string name="keep_distance_desc">Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.</string>
+  <string name="avoid_public_crowd">Avoid Public Crowd</string>
+  <string name="avoid_public_crowd_desc">Public gatherings of more than two people are not permitted</string>
+
+  <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="wash_hands">Wash Hands</string>
+  <string name="wash_hands_desc">Wash hands for about 20 seconds with soap and hot water or use sanitiser gel.</string>
+  <string name="avoid_contact">Avoid Contact</string>
+  <string name="avoid_contact_desc">Avoid touching your eyes, nose and mouth with unwashed hands.</string>
+  <string name="stay_home">Stay Home</string>
+  <string name="stay_home_desc">Try staying at least three steps away from other people in your home.</string>
+  <string name="back_home">Back Home!</string>
+    <string name="label_change_home_location">Change home location</string>
+  <string name="label_set_home_location">Mark home location</string>
+</resources>
