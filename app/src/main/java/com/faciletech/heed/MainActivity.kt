@@ -306,7 +306,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
                 droppedMarkerLayer?.setProperties(visibility(VISIBLE))
             }
         }
-        setLocation.text = "Change Location"
+        setLocation.text = getString(R.string.label_change_home_location)
     }
 
     override fun onStart() {

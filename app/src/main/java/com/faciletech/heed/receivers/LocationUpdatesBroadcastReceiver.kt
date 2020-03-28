@@ -1,4 +1,4 @@
-package com.faciletech.heed.locationReceiver
+package com.faciletech.heed.receivers
 
 import android.content.BroadcastReceiver
 import android.content.Context

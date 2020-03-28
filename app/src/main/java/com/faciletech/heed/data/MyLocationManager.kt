@@ -8,7 +8,7 @@ import android.util.Log
 import androidx.annotation.MainThread
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.faciletech.heed.locationReceiver.LocationUpdatesBroadcastReceiver
+import com.faciletech.heed.receivers.LocationUpdatesBroadcastReceiver
 import com.faciletech.heed.utils.hasPermission
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationRequest
