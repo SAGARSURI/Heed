@@ -1,4 +1,4 @@
-package com.faciletech.heed
+package com.faciletech.heed.ui.main
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -24,8 +24,10 @@ import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.app.ActivityCompat
 import androidx.core.graphics.drawable.toBitmap
 import androidx.lifecycle.ViewModelProvider
+import com.faciletech.heed.BuildConfig
+import com.faciletech.heed.R
+import com.faciletech.heed.TipsFragment
 import com.faciletech.heed.data.MyLocationManager
-import com.faciletech.heed.ui.main.MainViewModel
 import com.faciletech.heed.utils.KeyConstants
 import com.google.android.gms.common.api.ResolvableApiException
 import com.google.android.gms.location.*

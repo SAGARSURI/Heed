@@ -17,7 +17,7 @@
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
 
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.main.MainActivity"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Launcher">

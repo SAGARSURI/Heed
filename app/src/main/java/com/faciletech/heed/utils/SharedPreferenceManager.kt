@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.SharedPreferences
 
 const val PREFS_NAME = "heed"
+
 class SharedPreferenceManager(val context: Context) {
 
     private val sharedPref: SharedPreferences =
@@ -39,7 +40,7 @@ class SharedPreferenceManager(val context: Context) {
     }
 
     fun clearSharedPreference() {
-       sharedPref.edit().clear().apply()
+        sharedPref.edit().clear().apply()
     }
 
     fun removeValue(KEY_NAME: String) {
