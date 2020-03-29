@@ -11,3 +11,7 @@ In the same way, when you are returning home, it will notify you before a certai
 
 <img src="https://user-images.githubusercontent.com/14856659/77840808-fc538d80-71a8-11ea-8799-6a9f207727c1.png" width="400" height="720"> <img src="https://user-images.githubusercontent.com/14856659/77840810-ff4e7e00-71a8-11ea-9593-c84115eb3fac.png" width="400" height="720">
 <img src="https://user-images.githubusercontent.com/14856659/77840811-01184180-71a9-11ea-84f0-01b72af9ec00.png" width="400" height="720">
+
+## Thanks
+* [Flaticon](https://www.flaticon.com/home)
+* [Laura Reen](https://www.iconfinder.com/laurareen)
