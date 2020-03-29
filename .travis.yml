@@ -1,4 +1,6 @@
 language: android
+jdk:
+  - oraclejdk8
 dist: trusty
 android:
   components:
@@ -15,6 +17,7 @@ android:
 
 before_install:
   - yes | sdkmanager "platforms;android-29"
+  - chmod +x gradlew
 
 script:
   - ./gradlew assembleDebug
@@ -32,15 +35,15 @@ deploy:
   provider: releases
   api-key: $GITHUB_API_KEY
   file: $TRAVIS_BUILD_DIR/app/build/outputs/apk/debug/app-debug.apk
-  skip_cleanup: true
-  name: dev-build-$TRAVIS_TAG
-  body: Automatic build of $TRAVIS_BRANCH ($TRAVIS_COMMIT) built by Travis CI on $(date +'%F %T %Z').
-  prerelease: true
+  file_glob: true
+  cleanup: true
   overwrite: true
-  target_commitish: $TRAVIS_COMMIT
+  name: "$APP_VERSION"
   on:
-    tags: true
     branch: master
+
+before_deploy:
+  - export APP_VERSION=$(./gradlew :app:printVersionName)
 
 after_deploy:
   - rm -rf $TRAVIS_BUILD_DIR/app/build/outputs
